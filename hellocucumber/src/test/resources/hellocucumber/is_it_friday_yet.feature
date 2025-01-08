@@ -1,14 +1,3 @@
-= R5.A.08 -- Dépôt pour les TPs
-:icons: font
-:MoSCoW: https://fr.wikipedia.org/wiki/M%C3%A9thode_MoSCoW[MoSCoW]
-
-Ce dépôt concerne les rendus de mailto:leo.teillol@etu.univ-tlse2.fr[Leo Teillol].
-
-== TP1
-
-.Exemple de code
-[source,java]
----
 Feature: Is It Friday Yet?
 
 Scenario Outline: Is Friday?
@@ -21,9 +10,3 @@ Scenario Outline: Is Friday?
         | Friday         | TGIF   |
         | Sunday         | Nope   |
         | anything else! | Nope   |
----
-
-.Tests TP1
-image::TP1.png[width=80%]
-
-== TP2...
