@@ -8,7 +8,7 @@ Ce dépôt concerne les rendus de mailto:leo.teillol@etu.univ-tlse2.fr[Leo Teill
 
 .Exemple de code
 [source,java]
----
+----
 Feature: Is It Friday Yet?
 
 Scenario Outline: Is Friday?
@@ -21,9 +21,7 @@ Scenario Outline: Is Friday?
         | Friday         | TGIF   |
         | Sunday         | Nope   |
         | anything else! | Nope   |
----
+----
 
 .Tests TP1
 image::TP1.png[width=80%]
-
-== TP2...
