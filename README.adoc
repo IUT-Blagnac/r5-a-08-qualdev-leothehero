@@ -6,22 +6,23 @@ Ce dépôt concerne les rendus de mailto:leo.teillol@etu.univ-tlse2.fr[Leo Teill
 
 == TP1
 
-.Exemple de code
+.is_it_friday_yet.feature
 [source,java]
 ----
-Feature: Is It Friday Yet?
-
-Scenario Outline: Is Friday?
-    Given today is "<day>"
-    When I ask whether it's Friday yet
-    Then I should be told "<answer>"
-
-    Examples:
-        | day            | answer |
-        | Friday         | TGIF   |
-        | Sunday         | Nope   |
-        | anything else! | Nope   |
+include::hellocucumber/src/test/resources/hellocucumber/is_it_friday_yet.feature[]
 ----
 
 .Tests TP1
-image::TP1.png[width=80%]
+image::hellocucumber/TP1.png[width=80%]
+
+
+== TP2
+
+.Order.java
+[source,java]
+----
+include::cucumber_demo/src/test/java/Order.java[java]
+----
+
+.Tests TP2
+image::cucumber_demo/TP2.png[width=80%]
